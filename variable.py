@@ -55,7 +55,13 @@ print(c)
 
 
 b = ' everyone'
-print('welcome'+b)
+print('welcome'+' everyone')
+
+print('welcome', 'everyone', 'all', 'others')
+print('welcome', b)
+
+
+
 
 
 
