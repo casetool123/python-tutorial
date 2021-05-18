@@ -16,3 +16,5 @@ print(type(2))
 print(type("Amrita"))
 print(type(True))
 print(type(5.7))
+
+
