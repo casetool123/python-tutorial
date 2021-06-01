@@ -78,6 +78,21 @@ sample = 'I am writing python code. I am a beginner.'
 #indexing # slicing #replace() ...
 #output: 'I are writing python code. I am a beginner.'
 
+#replacing 1st am
+print(sample.replace('am', 'are', 1))
+
+#replacing 2nd am
+s1 = sample[0:25]
+s2 = sample[26:]
+print(s1)
+print(s2)
+s3 = s2.replace('am', 'are')
+print(s3)
+sample = s1 + s3
+print(sample)
+
+
+
 
 
 
