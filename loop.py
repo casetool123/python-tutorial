@@ -30,17 +30,20 @@
 
 # 3. can also iterate through a string, a list or a tupe
 
-s = 'Bangalore'
-lst = ['abc', 'efg', 'hij', 'xyz']
-tpl = (10, 20, 30 , 40 , 50)
+# s = 'Bangalore'
 
-print(len(s))
-print(len(lst))
-print(len(tpl))
+# tpl = (10, 20, 30 , 40 , 50)
+
+# print(len(s))
+# print(len(lst))
+# print(len(tpl))
+
+
+lst = ['abc', 'efg', 'hij', 'xyz']
 
 i = 0
 while i < 4:
-    print(s[i], lst[i], tpl[i])
+    print(lst[i])
     i = i+1
 
 

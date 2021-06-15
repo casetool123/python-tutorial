@@ -43,29 +43,29 @@ sq = turtle.Turtle()
 
 # draw two separate squares
 
-sq.color("orange")
+# sq.color("orange")
 
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
 
-sq.penup()
-sq.forward(150)
-sq.pendown()
+# sq.penup()
+# sq.forward(150)
+# sq.pendown()
 
-sq.color("orange")
+# sq.color("orange")
 
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
-sq.left(90)
-sq.forward(150)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
+# sq.left(90)
+# sq.forward(150)
 
 
 turtle.done()

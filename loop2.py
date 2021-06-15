@@ -52,9 +52,18 @@ d = {'abc':12, 'efg':15, 'xyz':17}
 #     print(key)
 
 
-for key in d.values():
-    print(key)
+# for key in d.values():
+#     print(key)
 
 
     
 # print({'abc':12, 'efg':15, 'xyz':17})
+
+
+
+lst = ['abc', 'efg', 'hij', 'xyz']
+for a in lst:
+    print(a)
+
+
+    
