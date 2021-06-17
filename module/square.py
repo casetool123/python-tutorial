@@ -2,8 +2,6 @@ import turtle
 
 sq = turtle.Turtle()
 
-#make square
-
 # sq.forward(150)
 # sq.left(90)
 # sq.forward(150)
@@ -11,12 +9,12 @@ sq = turtle.Turtle()
 # sq.forward(150)
 # sq.left(90)
 # sq.forward(150)
+# sq.left(90)
 
 
-#square with color border
+#color border
 
 # sq.color("orange")
-
 # sq.forward(150)
 # sq.left(90)
 # sq.forward(150)
@@ -24,11 +22,11 @@ sq = turtle.Turtle()
 # sq.forward(150)
 # sq.left(90)
 # sq.forward(150)
+# sq.left(90)
 
+#fill square
 
-#square with different color for border and filling
-
-# sq.color("orange", "red")
+# sq.color("red","blue")
 
 # sq.begin_fill()
 # sq.forward(150)
@@ -38,34 +36,33 @@ sq = turtle.Turtle()
 # sq.forward(150)
 # sq.left(90)
 # sq.forward(150)
+# sq.left(90)
 # sq.end_fill()
 
 
-# draw two separate squares
+#separate squares
+sq.color("red")
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
 
-# sq.color("orange")
+sq.penup()
+sq.forward(200)
+sq.pendown()
 
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
-
-# sq.penup()
-# sq.forward(150)
-# sq.pendown()
-
-# sq.color("orange")
-
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
-# sq.left(90)
-# sq.forward(150)
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
+sq.forward(150)
+sq.left(90)
 
 
 turtle.done()
